@@ -23,9 +23,6 @@
             <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
           </div>
           <div class="nav-link-item">
-            <a class="nav-link" href="#blog-section">BLOG</a>
-          </div>
-          <div class="nav-link-item">
             <a class="nav-link" href="#contact-section">CONTACT</a>
           </div>
         </div>
@@ -34,7 +31,8 @@
 
     <!-- main content of the webpage -->
     <main>
-      <!-- about section -->
+      <!-- my about section -->
+      <!-- can put icon contact here below my intro text, to be continued -->
       <section id="about-section">
         <div class="title-container">
           <h1 class="title">ABOUT</h1>
@@ -67,6 +65,7 @@
         <div class="title-container">
           <h1 class="title">PROJECTS</h1>
         </div>
+
         <!-- my first project container -->
         <div class="first-project-container">
 
@@ -89,6 +88,7 @@
         </div>
 
         <!-- my rest project container -->
+        <!-- to be continued -->
         <div class="rest-projects-container">
           <a class="rest-projects" id="third-project" href="https://github.com/xiaoxiayuer?tab=repositories">
             <h3 class="rest-projects-text">hello</h3></a>
@@ -105,45 +105,45 @@
         </div>
       </section>
 
-      <!-- my blog section -->
-      <section id="blog-section"></section>
-
-      <!-- contact section -->
+      <!-- my contact section -->
       <section id="contact-section">
-        <h2 class="title">Contact Me</h2>
-
+        <div class="title-container">
+          <h1 class="title" id="title-Contact">CONTACT</h1>
+        </div>
+        <p class="massage-subtitle">Have a question or wanna cooperate with me? Send me a massage!</p>
         <!-- flex contact form container-->
-        <form class="contact-form">
-          <!-- flex contact item with first and last name-->
-          <div class="form-control">
+        <div class="contact-form">
+          <!-- flex contact item with full name-->
+            <div class="form-control">
             <input
               class="form-input"
               type="text"
-              placeholder="Enter Your First Name"
+              placeholder="Full Name"
             />
-          </div>
-          <div class="form-control">
-            <input
+            </div>
+            <!-- flex contact item with email-->
+            <div class="form-control">
+              <input
               class="form-input"
               type="text"
-              placeholder="Enter your Last Name"
+              placeholder="Enter Email"
             />
-          </div>
+            </div>
 
-          <!-- flex contact item with email -->
-          <div class="form-control">
-            <input
-              class="form-input"
+          <!-- flex contact item with massage-->
+            <div class="form-control">
+              <input
+              class="form-input-massage"
               type="text"
-              placeholder="Enter your email address"
+              placeholder="Enter Your Massage"
             />
-          </div>
+            </div>
 
           <!-- flex contact item with send button -->
-          <div class="form-control">
+            <div class="form-control">
             <button class="btn">Send</button>
-          </div>
-        </form>
+            </div>
+        </div>
       </section>
     </main>
   </body>
