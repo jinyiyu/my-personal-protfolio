@@ -38,30 +38,24 @@ In order to implement the responsiveness of my website, I used several CSS eleme
 The following screenshots in the taggle list show the web application's appearance and functionality:
 
 <details>
-<summary> Welcome banner Page</summary>
+<summary> About Me Section</summary>
 
-![display](./assets/image/welcome-section.png)
-
-</details>
-
-<details>
-<summary> Start Take the questions with a timer</summary>
-
-![display2](./assets/image/questions.png)
+![display](./assets/image/aboutMe.png)
 
 </details>
 
 <details>
-<summary> End the quiz</summary>
+<summary> Projects Section</summary>
 
-![display2](./assets/image/thank-you-section.png)
+![display](./assets/image/projects1.png)
+![display](./assets/image/projects2.png)
 
 </details>
 
 <details>
-<summary> Go to highscrose page to compare with other player</summary>
+<summary> Contact Me Section</summary>
 
-![display2](./assets/image/high-scores.png)
+![display](./assets/image/contactMe.png)
 
 </details>
 
